@@ -1,6 +1,7 @@
 import module.main.hello
+import module.main.calculator
 
-fun main(){
+fun main() {
     hello()
-    print("OK")
+    calculator()
 }
