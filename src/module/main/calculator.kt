@@ -10,13 +10,14 @@ fun calculator() {
     val Firstnumber = reader.nextDouble()
     val SecondNumber = reader.nextDouble()
 
-    println("+, -, *, /")
+    println("+, -, %, *, /")
     println("Enter the operator: ")
     val resultoperator = reader.next()[0]
 
     val result: Double = when (resultoperator) {
         '+' -> Firstnumber + SecondNumber
         '-' -> Firstnumber - SecondNumber
+        '%' -> Firstnumber % SecondNumber
         '*' -> Firstnumber * SecondNumber
         '/' -> Firstnumber / SecondNumber
         else -> {
